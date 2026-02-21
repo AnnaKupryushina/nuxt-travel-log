@@ -29,6 +29,7 @@ export default withNuxt(
           },
         ],
         "perfectionist/sort-objects": "error",
+        "ts-no-redeclare": "off",
         "ts/consistent-type-definitions": ["error", "type"],
         "ts/no-redeclare": "off",
         "unicorn/filename-case": [
