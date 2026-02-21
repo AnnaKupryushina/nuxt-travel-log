@@ -1,4 +1,5 @@
 /* eslint-disable node/no-process-env */
+import { tryParseEnv } from "@nuxt/env";
 import { z } from "zod";
 
 const EnvSchema = z.object({
